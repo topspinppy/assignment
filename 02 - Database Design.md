@@ -5,7 +5,7 @@
 
 โดย Use Case ที่เคยพบปัญหา คือ ระบบ มี Parcel Table ที่เก็บอยู่ในระบบ Query ด้วย Consignment Key (เลขพัสดุ) ได้ช้าและทำให้หน้าเว็บรอนาน รอนานจน Api / DB Timeout และในขณะนั้นใช้ library sequelize.js (ORM) ใน Project
 
-วิธีแก้ปัญฆาคือ generate file migration ที่ sequalize.js มีมาให้ และใช้คำสั่ง add Index ของ sequelize ดังตัวอย่าง
+วิธีแก้ปัญหาคือ generate file migration ที่ sequalize.js มีมาให้ และใช้คำสั่ง add Index ของ sequelize ดังตัวอย่าง
 
 ```js
 queryInterface.addIndex('parcel', ['consignment'])
