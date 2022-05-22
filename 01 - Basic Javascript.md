@@ -28,7 +28,7 @@ const arrayExampleClone = [...arrayExample]
 
 First class function คือ การกำหนดให้ function เป็นตัวแปรได้ โดยมันจะถูกมองเป็น Data type แบบหนึ่ง ซึ่งจะต่างกับการ declare function แบบปกติ โดย ถ้า declare function ปกติ จะมี Scope แบบ Global แต่ถ้าเป็นตัวแปร เราจะต้องสร้างก่อนตัวแปรไม่ได้ เราจะสร้างได้แค่หลังตัวแปรเท่านั้น
 
-ตัวอย่าง "การประกาศตัวแปร
+ตัวอย่าง
 ```js
 const a = function add (x, y) {
      return x + y
