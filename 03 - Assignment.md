@@ -7,6 +7,6 @@
   
 
 ## Live Preview 
-- https://bookstore.topspin.space (Custom domain x Netlify)
+- https://bookstore-preview.netlify.app
 
  
